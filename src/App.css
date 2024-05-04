@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.push_down  {
+
+     @media (max-width:1000px) {
+         margin-top: 80px;
+     }
+
+}
+
+.header_image{
+    
+   @media (max-width:600px) {
+      height: 0vh;
+   }
+}
