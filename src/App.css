@@ -45,6 +45,12 @@
 
 }
 
+.push_down h1{
+  @media (max-width:1000px){
+    color:red
+  }
+}
+
 .header_image{
     
    @media (max-width:600px) {
