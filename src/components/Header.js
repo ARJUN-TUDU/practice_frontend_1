@@ -20,20 +20,17 @@ const Header = () => {
 
         <img className='header_image'  src = {require("../image.jpg")} style = {{width:"100%",height:"100%",position:"absolute"}} />
         <div style = {{position:"absolute",width:"100%",height:"auto",display:"grid",placeItems:"center",marginTop:"10vh"}}>
-            <Container>
+            <Container style = {{margin:"auto",width:"100%"}} >
 
             <Row>
-                <Col lg = {6} style = {{backgroundColor:"",display:"flex",alignItems:"center",justifyContent:"center"}}>
-                 <div>
+                <Col lg = {6} style = {{backgroundColor:"",height:"",display:"flex",alignItems:"center"}}>
+                 <div style = {{}} >
                  Welcome to This kind of measurement
                   <p>we all have been waiting for this</p>
+                  <button>dwadwa</button>
                  </div>
                 </Col>
-                <Col lg = {6}  style = {{backgroundColor:"" ,display:"flex",alignItems:"center",justifyContent:"center"}}>
-                   <div style = {{height:"250px",width:"100%"}}>
-                   <img src = {require("../image.jpg")} style = {{width:"100%",height:"100%",objectFit:"cover"}}  />
-                   </div>
-                </Col>
+                
             </Row>
 
             </Container>

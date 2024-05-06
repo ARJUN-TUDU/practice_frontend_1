@@ -5,15 +5,17 @@ import { Container } from 'react-bootstrap'
 const Home = () => {
   
   return (
-    <div>
+    <div> 
+          
           <Header/>
 
           <section>
  
-           <Container className = "push_down" >
+           <Container className = "push_down" style =  {{display:"flex",width:"100%",backgroundColor:"",marginTop:"50px"}} >
               
-                   <h1>hello</h1>
-             
+                    <button>dwa</button>
+                    <button>dwa</button>
+                    <button>dwa</button>
 
            </Container>
 
